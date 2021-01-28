@@ -1,4 +1,4 @@
 # AcademicMisconductManagementSystem
 Introduction to Software Engineering Course Work
-\nGroup 49
+Group 49
 
