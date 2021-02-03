@@ -1,1 +1,89 @@
 Requirements Analysis Team Notes
+
+Stock Holders
+  ATOM University
+  Students of ATOM
+  The Academic Misconduct Team
+  The departments of ATOM
+  each department's Misconduct Team
+  The Profession Services Team
+  The Student Conduct Office
+  The Module Leaders and Lecturers
+Functional Requirements
+  The System should be able to:
+  Create a Case
+  Log all actions taken place in the process
+    Time stamp and user who performed them
+    Logging data held in a system log
+  Schedule
+    interviews (investigation and Lamp) for Department Misconduct Team, hearings for SCO
+  Add additional information to the case
+    additional evidence; interview summary, notes and student attendance; case status
+  Send relevant information to student
+  Send emails
+  Notify/request other user of actions required on a case
+  Change Status of the case
+    case can be closed, registered (closed but no action) and dropped
+  Refer the case to appropriate team for that stage
+    Module Leader -> Academic Misconduct Team -> Department Misconduct Team -> SCO -> Professional Services Team
+Non-Functional Requirements
+  Flexibility
+    ability to change misconduct process due to dynamic nature
+  Only display cases which the user is relevant in
+  View multiple cases and see which actions are currently required from the user in them
+  Multiple cases can be created and viewed simultaneously by different users
+  For Scheduling
+    have form to select type of event along with location and issue invites to participants, different interview types may have different requirements to schedule
+  Students do not have access to create/modify cases
+  Input should be validated to insure it meets field specification
+    Student ID should be checked to ensure it is a valid student ID
+  All cases are kept even if they were dropped
+  Only actions that the current user has the power to do will be displayed to that user
+  Notifications be send by email as well as displayed on the appropriate user portal
+Use Cases
+  Module Leaders/Lectures can:
+    Create/report a case
+      requires: module code, Academic year, term, student number, student name, student email type of misconduct, title of assessment affected, % of the marks that affects the total mark of module, and Anonymized evidence.
+    if requested submit additional evidence
+  Academic Misconduct Team can:
+    deem if a case has enough evidence to refer it to the home department. Done by displaying cases information on the Academic Misconduct Team's portal
+    can notify module leader / lecturer if need more evidence or clarification of evidence
+  Department Misconduct Team can:
+    check if the student has previous offences
+    declare the case as a 3rd party involvement or other(plagiarism, collusion, etc...)
+    schedule interviews through scheduling system which will automatically send out invites to specified participants
+      for LAMP will require at least 7 days to meet time in advance specification
+    submit interview summary after the interview
+      gets recorded in the case and sent to the student
+    if the case is of other misconduct
+      the result of the interview is decided and submitted with the summary, to be stored and sent to student with a form the student needs to sign within 5 days
+      In case of an error in the form
+        The misconduct team can check the completed form and ask for corrections from the student or notify the Professional Services team
+      if no case is deemed from interview then the case is dropped
+      if poor academic practice from interview then case is registered but no action is taken
+    once the department misconduct is done their process and case is still active then refer the case to SCO
+  SCO can:
+    when case is referred to them:
+      schedule a hearing through the scheduling functionality
+      upload result after hearing
+      send final result to the professional services team
+  Professional Service Team can:
+    register case
+  Student can:
+    submit corrections to case errors to be reviewed and changed
+    can confirm attendance to an interview
+  If student has previous offences
+    module leader prompted to provide description of case
+    Misconduct team prompted to complete referral form
+    Case is sent to SCO
+    SCO prompted to schedule hearing
+    SCO receives the hearing outcome
+    Result is registered by the Professional Services Team
+Ambiguous/Incomplete Requirements
+  Misconduct Team
+    In the system specification the specific misconduct team is never specified (Academic or Department)
+  Is SCA a typo of SCO
+  Is a referral form required for every time the case is referred
+What we do not need to consider
+  user administration
+  user access control
