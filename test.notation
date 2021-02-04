@@ -16,6 +16,19 @@
     <element xmi:type="uml:Actor" href="test.uml#_MbkIwGcbEeuaQoMRWdiXZw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mbq2cGcbEeuaQoMRWdiXZw" x="730" y="191"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_M1MN4GcUEeurhb1c0UzHtw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_M1PRMGcUEeurhb1c0UzHtw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_M1P4QGcUEeurhb1c0UzHtw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_M1P4QWcUEeurhb1c0UzHtw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_M1RtcGcUEeurhb1c0UzHtw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_M1RtcWcUEeurhb1c0UzHtw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_M1RtcmcUEeurhb1c0UzHtw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1Rtc2cUEeurhb1c0UzHtw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="test.uml#_M1E5IGcUEeurhb1c0UzHtw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1MN4WcUEeurhb1c0UzHtw" x="420" y="40"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_L33l0WcbEeuaQoMRWdiXZw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_L33l0mcbEeuaQoMRWdiXZw"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_L33l02cbEeuaQoMRWdiXZw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
