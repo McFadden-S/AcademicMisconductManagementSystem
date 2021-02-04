@@ -12,4 +12,8 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_PQ7p0GcPEeuFKdPjyOwtVg" name="usecase2" type="_OrnWQGcPEeuFKdPjyOwtVg" association="_PQ5NkGcPEeuFKdPjyOwtVg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PQ838GcPEeuFKdPjyOwtVg" name="actor3" type="_O8TdoGcPEeuFKdPjyOwtVg" association="_PQ5NkGcPEeuFKdPjyOwtVg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7A8W4GcYEeuaY9BhZinYSg" name="UseCase5">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-zhQoGcYEeuaY9BhZinYSg" general="_9i1E0GcYEeuaY9BhZinYSg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9i1E0GcYEeuaY9BhZinYSg" name="Actor6"/>
 </uml:Model>
