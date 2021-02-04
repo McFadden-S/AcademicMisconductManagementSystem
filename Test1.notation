@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QidAQGcIEeu66aWHQ5DK4Q" type="UseCase" name="NewUseCaseDiagram" measurementUnit="Pixel">
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_QidAQWcIEeu66aWHQ5DK4Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_QidAQmcIEeu66aWHQ5DK4Q"/>
-  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_QidAQ2cIEeu66aWHQ5DK4Q" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KkIHAGcQEeuiGv93RLOadA" type="UseCase" name="NewUseCaseDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_AbktMGcREeuiGv93RLOadA" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AblUQGcREeuiGv93RLOadA" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AblUQWcREeuiGv93RLOadA" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AblUQmcREeuiGv93RLOadA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AblUQ2cREeuiGv93RLOadA" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AblURGcREeuiGv93RLOadA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AblURWcREeuiGv93RLOadA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AblURmcREeuiGv93RLOadA"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Test1.uml#_AbjfEGcREeuiGv93RLOadA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AbktMWcREeuiGv93RLOadA" width="141" height="61"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FsaUsGcREeuiGv93RLOadA" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsaUsmcREeuiGv93RLOadA" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fsa7wGcREeuiGv93RLOadA" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fsa7wWcREeuiGv93RLOadA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Fsa7wmcREeuiGv93RLOadA" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Fsa7w2cREeuiGv93RLOadA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Fsa7xGcREeuiGv93RLOadA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fsa7xWcREeuiGv93RLOadA"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Test1.uml#_FsX4cGcREeuiGv93RLOadA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FsaUsWcREeuiGv93RLOadA" x="460" y="400" width="121" height="61"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_N88ngGcREeuiGv93RLOadA" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_N88ngmcREeuiGv93RLOadA" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_N89OkGcREeuiGv93RLOadA" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_N89OkWcREeuiGv93RLOadA" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_N89OkmcREeuiGv93RLOadA" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_N89Ok2cREeuiGv93RLOadA" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_N89OlGcREeuiGv93RLOadA" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_N89OlWcREeuiGv93RLOadA" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_N89OlmcREeuiGv93RLOadA" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Test1.uml#_N87ZYGcREeuiGv93RLOadA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N88ngWcREeuiGv93RLOadA" x="980" y="280"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_KkIHAWcQEeuiGv93RLOadA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KkIHAmcQEeuiGv93RLOadA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_KkIHA2cQEeuiGv93RLOadA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
     <owner xmi:type="uml:Model" href="Test1.uml#_I3-HAGR6Eeuk99qNdcGEUQ"/>
   </styles>
   <element xmi:type="uml:Model" href="Test1.uml#_I3-HAGR6Eeuk99qNdcGEUQ"/>
