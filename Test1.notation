@@ -42,6 +42,19 @@
     <element xmi:type="uml:Actor" href="Test1.uml#_N87ZYGcREeuiGv93RLOadA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N88ngWcREeuiGv93RLOadA" x="980" y="280"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_ZHDdkGcTEeuiGv93RLOadA" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZHDdkmcTEeuiGv93RLOadA" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZHDdk2cTEeuiGv93RLOadA" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHDdlGcTEeuiGv93RLOadA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZHDdlWcTEeuiGv93RLOadA" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZHDdlmcTEeuiGv93RLOadA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZHDdl2cTEeuiGv93RLOadA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZHDdmGcTEeuiGv93RLOadA"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Test1.uml#_ZHCPcGcTEeuiGv93RLOadA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZHDdkWcTEeuiGv93RLOadA" x="600" y="100"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_KkIHAWcQEeuiGv93RLOadA" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_KkIHAmcQEeuiGv93RLOadA"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_KkIHA2cQEeuiGv93RLOadA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
