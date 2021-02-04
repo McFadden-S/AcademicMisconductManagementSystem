@@ -3,4 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_JACd4GR6Eeuk99qNdcGEUQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_60bYIGcIEeu66aWHQ5DK4Q" name="UseCase2"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-QcMAGcIEeu66aWHQ5DK4Q" name="UseCase3"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-y0gUGcIEeu66aWHQ5DK4Q" name="Actor4"/>
 </uml:Model>
