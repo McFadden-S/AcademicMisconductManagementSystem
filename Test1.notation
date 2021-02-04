@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KkIHAGcQEeuiGv93RLOadA" type="UseCase" name="NewUseCaseDiagram" measurementUnit="Pixel">
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_KkIHAWcQEeuiGv93RLOadA" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_KkIHAmcQEeuiGv93RLOadA"/>
-  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_KkIHA2cQEeuiGv93RLOadA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QidAQGcIEeu66aWHQ5DK4Q" type="UseCase" name="NewUseCaseDiagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_QidAQWcIEeu66aWHQ5DK4Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_QidAQmcIEeu66aWHQ5DK4Q"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_QidAQ2cIEeu66aWHQ5DK4Q" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
     <owner xmi:type="uml:Model" href="Test1.uml#_I3-HAGR6Eeuk99qNdcGEUQ"/>
   </styles>
   <element xmi:type="uml:Model" href="Test1.uml#_I3-HAGR6Eeuk99qNdcGEUQ"/>
