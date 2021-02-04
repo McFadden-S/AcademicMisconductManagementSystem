@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PhYLgGcNEeuS5t7ZnRkSHQ" name="Test1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PsUQMGcNEeuS5t7ZnRkSHQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OrnWQGcPEeuFKdPjyOwtVg" name="UseCase2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O8TdoGcPEeuFKdPjyOwtVg" name="Actor3"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PQ5NkGcPEeuFKdPjyOwtVg" memberEnd="_PQ7p0GcPEeuFKdPjyOwtVg _PQ838GcPEeuFKdPjyOwtVg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PQ6bsGcPEeuFKdPjyOwtVg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PQ7CwGcPEeuFKdPjyOwtVg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PQ7p0GcPEeuFKdPjyOwtVg" name="usecase2" type="_OrnWQGcPEeuFKdPjyOwtVg" association="_PQ5NkGcPEeuFKdPjyOwtVg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PQ838GcPEeuFKdPjyOwtVg" name="actor3" type="_O8TdoGcPEeuFKdPjyOwtVg" association="_PQ5NkGcPEeuFKdPjyOwtVg"/>
+  </packagedElement>
+</uml:Model>
