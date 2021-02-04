@@ -9,4 +9,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_60bYIGcIEeu66aWHQ5DK4Q" name="UseCase2"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-QcMAGcIEeu66aWHQ5DK4Q" name="UseCase3"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_-y0gUGcIEeu66aWHQ5DK4Q" name="Actor4"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4EOPcGcKEeu66aWHQ5DK4Q" name="UseCase8"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4tG0YGcKEeu66aWHQ5DK4Q" name="Actor9"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4_DgAGcKEeu66aWHQ5DK4Q" name="UseCase10"/>
 </uml:Model>
