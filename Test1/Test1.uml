@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PhYLgGcNEeuS5t7ZnRkSHQ" name="Test1">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_q7MU8GcQEeunJKWnqs_XuA">
+    <body>hello</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_PsUQMGcNEeuS5t7ZnRkSHQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_OrnWQGcPEeuFKdPjyOwtVg" name="UseCase2"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_O8TdoGcPEeuFKdPjyOwtVg" name="Actor3"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O8TdoGcPEeuFKdPjyOwtVg" name="Actor3">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tUKXcGcQEeunJKWnqs_XuA" general="_qMkUYGcQEeunJKWnqs_XuA"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_PQ5NkGcPEeuFKdPjyOwtVg" memberEnd="_PQ7p0GcPEeuFKdPjyOwtVg _PQ838GcPEeuFKdPjyOwtVg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PQ6bsGcPEeuFKdPjyOwtVg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PQ7CwGcPEeuFKdPjyOwtVg" key="nature" value="UML_Nature"/>
@@ -16,4 +21,7 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_-zhQoGcYEeuaY9BhZinYSg" general="_9i1E0GcYEeuaY9BhZinYSg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9i1E0GcYEeuaY9BhZinYSg" name="Actor6"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qMkUYGcQEeunJKWnqs_XuA" name="UseCase5"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qnn4sGcQEeunJKWnqs_XuA" name="Actor6"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ssiWwGcQEeunJKWnqs_XuA" client="_qnn4sGcQEeunJKWnqs_XuA" supplier="_qMkUYGcQEeunJKWnqs_XuA"/>
 </uml:Model>
