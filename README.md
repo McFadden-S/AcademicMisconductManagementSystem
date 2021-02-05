@@ -1,3 +1,3 @@
 # AcademicMisconductManagementSystem
 Introduction to Software Engineering
-- Coursework 20-21, Group 49
+- 4CCS1ISE Team Coursework, 2020-21, Group 49
