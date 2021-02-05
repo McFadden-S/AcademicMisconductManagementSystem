@@ -1,7 +1,7 @@
 Requirements Analysis Team Notes
 
 Stock Holders
-  ATOM University
+- ATOM University
   Students of ATOM
   The Academic Misconduct Team
   The departments of ATOM
