@@ -1,0 +1,317 @@
+Description of Use Cases:
+-------------------------
+-------------------------
+
+- Name: Report case
+- Short description: collects the info necessary for a case, then reports it
+- Precondition: needs information for case: module code, academic year, term, student number student name, student email, type of misconduct, title of affected assessment, percentage of marks of marks that affects the total mark of the module, and anonymised evidence
+- Postcondition: a case is reported
+- Error situations: if the information is incorrect
+- System state in the event of an error: the case if NOT reported
+- Actors: Module Leaders OR Lecturers
+- Triggers: Log action, Review reported case
+- Standard process: 
+	1. the case info is included
+	2. System checks if info is correct
+	3. the case is confirmed
+- Alternate process:
+	2'. the info is incorrect (doesn't match anything in records or system info)
+	3'. this case is cancelled
+	
+-------------------------
+
+- Name: Send evidence
+- Short description: additional evidence is sent to the Academic Misconduct Team (AMT)
+- Precondition: additional evidence is requested by the AMT
+- Postcondition: extra evidence is forwarded to the AMT
+- Error situations: N/A
+- System state in the event of an error: N/A
+- Actors: Module Leaders OR Lectures
+- Triggers: N/A
+- Standard process:
+	1. A request was filed, by the AMT
+	2. the module leaders or lecturers forwards extra evidence
+	3. the further evidence is reviewed anew
+	
+-------------------------
+
+- Name: Review reported case
+- Short description: a reported case is now reviewed and deemed to have sufficient evidence
+- Precondition: there must be a case to be reviewed
+- Postcondition: the case is classified to be worthy of further action
+- Error situations: case is invalid
+- System state in the event of an error: the case is dropped, and not referred
+- Actors: Academic Misconduct Team
+- Triggers: Log action, Refer case (if with sufficient validity and evidence), Case dropped (if not valid)
+- Standard process:
+	1. the new case is received
+	2. the aforementioned case is analysed for validity
+	3. the case is analysed for sufficient evidence
+	4. the case is referred
+- Alternative process(es):
+	2'. the case doesn't contain sufficient validity
+	3'. the case is dropped
+	
+	3''. the case does not contain sufficient evidence
+	4''. a request for more evidence is given to the module instructor (abstract)
+	
+-------------------------
+
+- Name: Request more evidence
+- Short description: upon review, the case has been concluded to be valid, but requires further evidence
+- Precondition: the case must exist and must be classified valid
+- Postcondition: more evidence is requested from module instructor (abstract)
+- Error situations: N/A
+- System state in the event of an error: N/A
+- Actors: Academic Misconduct Team
+- Triggers: Log action, Refer case
+- Standard process:
+	1. a request for more evidence is placed to the module instructor (abstract)
+	2. the evidence is received
+	3. the case is re-evaluated for sufficiency of evidence
+	4. the case is referred
+Alternate process:
+	3'. the case is still not valid
+	4'. a repeated request is made
+	5'. if still not sufficient after this request, the case is dropped
+		
+-------------------------
+
+- Name: Refer case
+- Short description: the case is now sent to the Department Misconduct Team (DMT)
+- Precondition: a case exists and is valid and with sufficient
+- Postcondition: the case is sent to the DMT
+- Error situations: N/A
+- System state in the event of an error: N/A
+- Actors: Academic Misconduct Team
+- Triggers: Log action
+- Standard process:
+	1. the case is received
+	2. the case is sent to the DMT
+	
+-------------------------
+
+- Name: Check student's past offences
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Department Misconduct Team
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Declare case type
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Department Misconduct Team
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Log action
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Case dropped
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Submit interview summary
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Schedule
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Academic Misconduct Team OR SCO
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process: 
+	- 
+	
+-------------------------
+
+- Name: Create and complete form
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Student
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Confirm attendance
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Student
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Case registered
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: Professional Service Team
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Case closed
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Send information
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Display on relevant user's portal
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Send email
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Submit hearing result
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
+
+- Name: Recieve case
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	- 
+- Alternative process:
+	- 
+	
+-------------------------
