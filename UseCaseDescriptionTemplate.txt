@@ -1,0 +1,14 @@
+- Name:
+- Short description: 
+- Precondition: 
+- Postcondition: 
+- Error situations: 
+- System state in the event of an error: 
+- Actors: 
+- Triggers: 
+- Standard process: 
+	1. 
+- Alternative process:
+	1. 
+	
+-------------------------
