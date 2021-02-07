@@ -1,0 +1,130 @@
+Shae McFadden's Notes
+
+Requirements Analysis
+  System
+    Functional
+      Implement the Academic Misconduct Process defined by SCO
+      Log all actions taken place in the process(w/ time stamp and user who performed them)
+      Ability to schedule:
+        interviews (investigation and Lamp) for Department Misconduct Team
+        hearings for SCO
+      Add additional information to the case:
+        additional evidence; interview summary, notes and student attendance; case status;
+      Send relevant information to the student:
+      Change Status of the case
+      Refer the case to appropriate team for that stage
+        Module Leader -> Academic Misconduct Team -> Department Misconduct Team -> SCO -> Professional Services Team
+    Non Functional
+      flexible as possible (?potential agile development)
+      Have user log in
+        each user be able to pick current cases and view which actions are required of them
+        only display cases which the user is relevant in
+        with log in then easy to automate user and time stamp on log
+      for scheduling (under specific case)
+        have form to select type of event along with location and issue invites to participants
+        have system to allow for changes in scheduling and responses from participants including confirmation(RSVP) or submit a mitigating circumstance for date change
+    Use Case
+      Module Leaders/Lectures can:
+        Create/Report a Case
+      Academic Misconduct Team can:
+        deem if a case has enough evidence refer it to home department
+      Department Misconduct Team can:
+        check if student has previous offences
+        declare the case as 3rd party involvement or other (plagiarism, collusion etc...)
+        schedule interviews (module leader, member of misconduct team and student)
+        submit interview summary
+        the the case of other misconduct
+          If no case then case is dropped
+          If case of poor academic practice, case is registered, no action taken
+        refer case to SCO
+      SCO can:
+        when case is referred to them
+          schedule a hearing
+          send result to home department as well as PS team
+      Professional Service Team can:
+        register case
+      If case has enough evidence then System decides path based on type of misconduct and if their is past offences
+    Ambiguous/Incomplete Requirements
+      where should logged actions be stored in the system(?in the Case)
+      what action should be taken if a case does not have enough evidence (? not enough evidence reported back to Module leader or dropped)
+      Do students have access to the system to see status on the case (? things that are not specified as sent by email, if student has access would they see it on the system)
+      are SCA and SCO the same
+      What happens when a case is closed or dropped (?is all or some information kept)
+      Are the academic management team apart of the SCO
+
+
+blue tag ambiguous
+
+User and System Requirements
+Requirement prioritization
+Non Functional Requirements
+Use Case Diagram
+Use Case Description
+Class Diagram
+
+
+
+
+
+    Module Leaders/Lectures, Academic Misconduct Team (SCO), Department Misconduct Team, Professional Services Team need access to this system
+    Module Leaders/Lectures can:
+      Create/Report a Case
+    Academic Misconduct Team can:
+      deem if a case has enough evidence refer it to home department
+    Department Misconduct Team can:
+      check if student has previous offences
+      declare the case as 3rd party involvement or other (plagiarism, collusion etc...)
+      refer case to SCO
+      In Case of 3rd Party Involvement (no previous offences)
+        Set up investigation interview (sends invite to module leader, member of misconduct team and student)
+        Summary of the interview is added to the case and emailed to student
+        case referred to SCO
+      In Case of other case of misconduct (no previous offences)
+        Set up Local Academic Misconduct Procedure Interview (sends invite to module leader, member of misconduct team and student, needs >= 7 days notice)
+        Summary of the interview is added to the case along with notes and result (no case, poor academic practice, misconduct or referral)
+        Result emailed to student
+        If misconduct
+          form emailed to student (5 days to complete)
+          misconduct team checks form is completed
+          request for any corrections from student
+          notify the professional services team
+            the professional services team send copy of signed form to module leader and SCO
+        If no case then case is dropped
+        If case of poor academic practice, case is registered, no action taken
+        if if result is to referral then refer to SCO
+      In Case of previous offences
+        email module leader asking description of case
+        referral form is completed by misconduct team
+        the case is sent to SCO
+    SCO can:
+      when case is referred to them
+        schedule a hearing
+        send result to home result as well as PS team to register
+
+
+  User Requirements
+  System Requirements
+    Functional Requirements
+    Non-Functional Requirements
+  Use Cases
+  Ambiguous/Incomplete Requirements
+    where should logged actions be stored in the system(?in the Case)
+    what action should be taken if a case does not have enough evidence (? not enough evidence reported back to Module leader or dropped)
+    Do students have access to the system to see status on the case (? things that are not specified as sent by email, if student has access would they see it on the system)
+    are SCA and SCO the same
+    What happens when a case is closed or dropped (?is all or some information kept)
+    Are the academic management team apart of the SCO
+
+
+Part One:
+  Carry out requirements elicitation and document the system functionalities as use cases in a use case diagram. Point out any ambiguous or incomplete requirements;
+  Draw an initial class diagram of the logical system data including classes, attributes and associations;
+  Write use case descriptions.
+Part One Report:
+  Team management and process:
+    Describe team members’ roles and their contributions to the project;
+    List of meetings and who attended.
+  Requirements analysis;
+  Use case diagram;
+  Use cases descriptions;
+  Class diagram;
