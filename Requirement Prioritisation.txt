@@ -4,7 +4,6 @@ Must have: Non-negotiable requirements that are mandatory to have for the projec
 -	Create a case. 
 -	Log all actions.
 		Record Time Stamp and User who performed them.
--	Schedule Interviews (Investigation and Lamp) for department Misconduct Team, hearings for SCO.
 -	Send relevant information to the student.
 -	Send Emails.
 -	View multiple cases and see which actions are currently required from the user in them.
@@ -15,6 +14,7 @@ Must have: Non-negotiable requirements that are mandatory to have for the projec
 
 Should have: Important requirements that are not vital but add Significant value to the project.
 -	Notify/request other user of actions required of the case.
+-	Schedule Interviews (Investigation and Lamp) for department Misconduct Team, hearings for SCO.
 -	For scheduling, have a form to select the type of event along with location and issue invites to participants, different interview types may have different requirements to schedule.
 
 Could have: Requirements that will have a small impact if left out of the project.
