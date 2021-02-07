@@ -1,0 +1,19 @@
+Non-Functional Requirements
+  Flexibility
+    ability to change misconduct process due to dynamic nature
+  Only display cases which the user is relevant in
+  View multiple cases and see which actions are currently required from the user in them
+  Multiple cases can be created and viewed simultaneously by different users
+  For Scheduling
+    have form to select type of event along with location and issue invites to participants, different interview types may have different requirements to schedule
+  Students do not have access to create/modify cases
+  Input should be validated to insure it meets field specification
+    Student ID should be checked to ensure it is a valid student ID
+  All cases are kept even if they were dropped
+Only actions that the current user has the power to do will be displayed to that user
+  Notifications be send by email as well as displayed on the appropriate user portal
+  Software has to be maintainable as it will be in long term use.
+  System should'nt be required to run overnight due to environment requirements.
+  Easy to use interface.
+  The system must use SCO APIs that are already provided , the operations are: Providing number of previous offences, Referral of cases and Consultation of status of cases.
+  Storing or displaying information in accordance to confidentiality legalislation .
