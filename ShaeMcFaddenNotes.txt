@@ -54,6 +54,27 @@ Requirements Analysis
 
 
 blue tag ambiguous
+add stakeholders in the report
+also add description of team work
+
+Stakeholders additions
+academic and university regulators
+other universities
+think of more not just obvious
+also think of negative stakeholders
+student financier
+
+Non functional requirements
+  portability?
+  deployment
+  web based?
+  need to think wider and broader
+  sometimes common sense
+  need to accommodate traffic
+
+use cases
+  quality over quantity
+
 
 User and System Requirements
 Requirement prioritization
