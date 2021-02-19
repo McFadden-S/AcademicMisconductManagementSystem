@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_50MEoHH0Eeun9tWI8ZhAFw" name="ISE Coursework 20-21">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_52IlYHH0Eeun9tWI8ZhAFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9jof8HH2Eeun9tWI8ZhAFw" name="Case">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HpLzoHH3Eeun9tWI8ZhAFw" name="caseIDReference" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y3kyQHH3Eeun9tWI8ZhAFw" name="studentNumber" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_baroMHH3Eeun9tWI8ZhAFw" name="academicYear" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gZlLIHH3Eeun9tWI8ZhAFw" name="studentName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_imdSYHH3Eeun9tWI8ZhAFw" name="studentEmail" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mMoH0HH3Eeun9tWI8ZhAFw" name="interviewSummary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4e7agHH3Eeun9tWI8ZhAFw" name="percentMarkAffected" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KEniAHH8EeupR5BiUQ6d3w" name="evidence" visibility="private" type="_5RaDgHH7EeupR5BiUQ6d3w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PB_a8HH8EeupR5BiUQ6d3w" name="details" visibility="private" type="_SYutQHH8EeupR5BiUQ6d3w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TrlcQHH8EeupR5BiUQ6d3w" name="log" visibility="private" type="_WdPrkHH8EeupR5BiUQ6d3w"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JNjF8HKSEeuRxKrHseXvEg" name="changeStatus(Enum state)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MKwd8HKSEeuRxKrHseXvEg" name="changeStatus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-EgfgHKSEeuRxKrHseXvEg" name="state" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg" effect="create"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WMdMYHKSEeuRxKrHseXvEg" name="addDetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FtzzMHKTEeuRxKrHseXvEg" name="details" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ewDIoHKTEeuRxKrHseXvEg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uXxEYHKTEeuVmc8zEW6hNQ" name="addEvidence">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_znKhcHKTEeuVmc8zEW6hNQ" name="files" visibility="private" type="_N6C00HKTEeuRxKrHseXvEg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0jLdwHKTEeuVmc8zEW6hNQ" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZZYbYHKSEeuRxKrHseXvEg" name="setInterviewSummary">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_X4LR4HKTEeuRxKrHseXvEg" name="summary" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eSkX4HKSEeuRxKrHseXvEg" name="getStatus" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tRgcYHKSEeuRxKrHseXvEg" name="status" type="_L4zAsHKREeuRxKrHseXvEg" direction="out"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bBvgUHKSEeuRxKrHseXvEg" name="getLog" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_c8rjAHKSEeuRxKrHseXvEg" name="log" visibility="public" direction="out" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_rPuOQHH3Eeun9tWI8ZhAFw" name="misconductType" visibility="private"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_vI-XwHH3Eeun9tWI8ZhAFw" name="assessmentType" visibility="private"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wkkMAHH3Eeun9tWI8ZhAFw" name="term" visibility="private"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_0CwxMHH3Eeun9tWI8ZhAFw" name="status" visibility="private"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_gkqO8HKVEeuVmc8zEW6hNQ" name="module" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5RaDgHH7EeupR5BiUQ6d3w" name="ArrayList&lt;File>" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SYutQHH8EeupR5BiUQ6d3w" name="ArrayList&lt;String>" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WdPrkHH8EeupR5BiUQ6d3w" name="Log ">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_i1K10HKREeuRxKrHseXvEg" name="logFile" visibility="private" type="_m2QFoHKREeuRxKrHseXvEg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R5AdoHH3Eeun9tWI8ZhAFw" name="caseId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CMs5YHKSEeuRxKrHseXvEg" name="logAction">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_E2ci0HKSEeuRxKrHseXvEg" name="String"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Frv2UHKWEeuVmc8zEW6hNQ" name="log" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IElV8HKWEeuVmc8zEW6hNQ" name="getLog">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QLCfsHKWEeuVmc8zEW6hNQ" name="caseID" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MAw3oHKWEeuVmc8zEW6hNQ" name="log" direction="out">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L4zAsHKREeuRxKrHseXvEg" name="Enum" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_m2QFoHKREeuRxKrHseXvEg" name="Log" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_N6C00HKTEeuRxKrHseXvEg" name="File" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I0ezwHKUEeuVmc8zEW6hNQ" name="CaseManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M2i7AHKUEeuVmc8zEW6hNQ" name="caseActorGroups" type="_qmmqcHKUEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YMwlUHKUEeuVmc8zEW6hNQ" name="referCase">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aZjNAHKUEeuVmc8zEW6hNQ" name="caseActorGroup" type="_L4zAsHKREeuRxKrHseXvEg" effect="create"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2hmc0HKUEeuVmc8zEW6hNQ" name="case" type="_9jof8HH2Eeun9tWI8ZhAFw" effect="create"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MKf34HKVEeuVmc8zEW6hNQ" name="addNewCase">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O8e3UHKVEeuVmc8zEW6hNQ" name="newCase" type="_9jof8HH2Eeun9tWI8ZhAFw" effect="create"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QA2eYHKVEeuVmc8zEW6hNQ" name="updateCase">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S0cnYHKVEeuVmc8zEW6hNQ" name="updatedCase" type="_9jof8HH2Eeun9tWI8ZhAFw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qmmqcHKUEeuVmc8zEW6hNQ" name="HashMap&lt;Enum, ArrayList&lt;Case>>" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_zVVfsHKVEeuVmc8zEW6hNQ" name="CaseActorGroups"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_X9ZowHKWEeuVmc8zEW6hNQ" name="Scheduler">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cN0VEHKWEeuVmc8zEW6hNQ" name="scheduleInterview">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rtgrUHKYEeuVmc8zEW6hNQ" visibility="private"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eIi8YHKWEeuVmc8zEW6hNQ" name="scheduleInvestigatoryInterview" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_f1g0gHKWEeuVmc8zEW6hNQ" name="scheduleLAMPInterview" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jTohMHKWEeuVmc8zEW6hNQ" name="scheduleHearing" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lc23gHKWEeuVmc8zEW6hNQ" name="UserPortal">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pOCqIHKWEeuVmc8zEW6hNQ" name="userID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r6mXAHKWEeuVmc8zEW6hNQ" name="userActorGroup" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_38BhgHKWEeuVmc8zEW6hNQ" name="viewCase" visibility="protected" type="_9jof8HH2Eeun9tWI8ZhAFw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6zZ-UHKWEeuVmc8zEW6hNQ" name="showCaseList"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7lh-0HKWEeuVmc8zEW6hNQ" name="showCase">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9MU9gHKWEeuVmc8zEW6hNQ" name="caseId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IhVG4HKXEeuVmc8zEW6hNQ" name="showNotifications"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JfYqkHKXEeuVmc8zEW6hNQ" name="setId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MPgo0HKXEeuVmc8zEW6hNQ" name="id" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qbe6AHKXEeuVmc8zEW6hNQ" name="ModuleStaffPortal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vnXRwHKYEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_09FZQHKYEeuVmc8zEW6hNQ" name="showReportCaseForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_124IAHKYEeuVmc8zEW6hNQ" name="showRequestForEvidenceForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2q93YHKYEeuVmc8zEW6hNQ" name="setModule">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8kf2kHKYEeuVmc8zEW6hNQ" name="module" type="_L4zAsHKREeuRxKrHseXvEg"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Bn6tIHKZEeuVmc8zEW6hNQ" name="submitReportCaseForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DVEygHKZEeuVmc8zEW6hNQ" name="studentNumber" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ErDG8HKZEeuVmc8zEW6hNQ" name="studentName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GJuEYHKZEeuVmc8zEW6hNQ" name="studentEmail" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HlAWoHKZEeuVmc8zEW6hNQ" name="academicYear" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JZcIsHKZEeuVmc8zEW6hNQ" name="term" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lxm58HKZEeuVmc8zEW6hNQ" name="module" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NeHfEHKZEeuVmc8zEW6hNQ" name="misconductType" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S_qcEHKZEeuVmc8zEW6hNQ" name="assessmentType" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_U0l9YHKZEeuVmc8zEW6hNQ" name="percentMarkAffected" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Wj5-4HKZEeuVmc8zEW6hNQ" name="evidence" visibility="private" type="_5RaDgHH7EeupR5BiUQ6d3w"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ac0xMHKZEeuVmc8zEW6hNQ" name="details" visibility="private" type="_SYutQHH8EeupR5BiUQ6d3w"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_he_zcHKZEeuVmc8zEW6hNQ" name="submitEvidenceForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jo--wHKZEeuVmc8zEW6hNQ" name="evidence" visibility="private" type="_N6C00HKTEeuRxKrHseXvEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ru8tAHKXEeuVmc8zEW6hNQ" name="SCOPortal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0IRtoHKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nTx1gHKZEeuVmc8zEW6hNQ" name="scheduler" type="_pxGzkHKZEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_savvUHKZEeuVmc8zEW6hNQ" name="showScheduleHearingForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tLYiEHKZEeuVmc8zEW6hNQ" name="submitScheduleHearingForm"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SR8sYHKXEeuVmc8zEW6hNQ" name="AMTPortal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0v_N4HKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u_oG4HKZEeuVmc8zEW6hNQ" name="showMisconductTypeForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vwBpEHKZEeuVmc8zEW6hNQ" name="submitMisconductTypeForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xmYGsHKZEeuVmc8zEW6hNQ" name="misconductType" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SwwvUHKXEeuVmc8zEW6hNQ" name="DMTPortal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_226eIHKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zkQIoHKZEeuVmc8zEW6hNQ" name="scheduler" type="_pxGzkHKZEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1Ft7YHKZEeuVmc8zEW6hNQ" name="showScheduleInvestigatoryInterviewForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2IwswHKZEeuVmc8zEW6hNQ" name="showLAMPInterviewForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_299PYHKZEeuVmc8zEW6hNQ" name="submitScheduleInvestigatoryInterviewForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_39FKEHKZEeuVmc8zEW6hNQ" visibility="private"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9LK_kHKZEeuVmc8zEW6hNQ" name="submitLAMPInterviewForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-AcasHKZEeuVmc8zEW6hNQ" visibility="private"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__C59QHKZEeuVmc8zEW6hNQ" name="submitInterviewSummary"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TeRVkHKXEeuVmc8zEW6hNQ" name="StudentPortal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_33rXkHKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BdxdMHKaEeuVmc8zEW6hNQ" name="setStudentId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DxSX8HKaEeuVmc8zEW6hNQ" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Epvp8HKaEeuVmc8zEW6hNQ" name="confirmInterviewAttendance">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_G1LmwHKaEeuVmc8zEW6hNQ" name="willAttend" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_H5h_sHKaEeuVmc8zEW6hNQ" name="submitSignedForm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KveSEHKaEeuVmc8zEW6hNQ" name="form" visibility="private" type="_N6C00HKTEeuRxKrHseXvEg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WbAMcHKXEeuVmc8zEW6hNQ" name="Notifier">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8HtCUHKXEeuVmc8zEW6hNQ" name="email" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AUi2MHKYEeuVmc8zEW6hNQ" name="studentID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CmY9AHKYEeuVmc8zEW6hNQ" name="recepient" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FiDc4HKYEeuVmc8zEW6hNQ" name="sendNotification">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IRF2AHKYEeuVmc8zEW6hNQ" name="message" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LZi0sHKYEeuVmc8zEW6hNQ" name="recipients" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MkEHEHKYEeuVmc8zEW6hNQ" name="sendEmail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PF2HUHKYEeuVmc8zEW6hNQ" name="subject" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YVlNUHKYEeuVmc8zEW6hNQ" name="body" visibility="private" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bqU7kHKYEeuVmc8zEW6hNQ" name="recipients" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xqKP8HKYEeuVmc8zEW6hNQ" name="sendCaseToOtherDepartment"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pxGzkHKZEeuVmc8zEW6hNQ" name="Scheduler"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_t_z-wHKQEeuRxKrHseXvEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t_0l0HKQEeuRxKrHseXvEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
