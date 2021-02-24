@@ -156,5 +156,4 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_aJn8gGfREeuv3s5NKdrKbg" name="Confirm Attendance"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_xLJ8QGfCEeuv3s5NKdrKbg" name="Log action"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_A0Nx0HH1EeuYjMZAFoF1IA" name="Class21"/>
 </uml:Model>
