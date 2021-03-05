@@ -1,0 +1,5 @@
+Design Patterns to use:
+  - Abstract Factory
+    - for UI
+  - Composite UI
+    - for creation of case
