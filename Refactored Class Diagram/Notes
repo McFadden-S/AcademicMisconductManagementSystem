@@ -2,7 +2,7 @@ Design Patterns to use:
   - Abstract Factory
     - for UI
   - Composite
-    - for creation of case
+    - for creation of case, interview
 
   - invert diagram
     - UI above
