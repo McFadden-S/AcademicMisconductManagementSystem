@@ -3,3 +3,7 @@ Design Patterns to use:
     - for UI
   - Composite
     - for creation of case
+
+  - invert diagram
+    - UI above
+    - objects (case, interview, etc.) under
