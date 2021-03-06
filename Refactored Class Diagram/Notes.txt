@@ -7,3 +7,12 @@ Design Patterns to use:
   - invert diagram
     - UI above
     - objects (case, interview, etc.) under
+
+- have portals all be aligned
+- have arrows all go towards the center at 90deg, then go up straight
+  - make all lines vertical or horizontal
+
+- on UI
+  - have 'createUI' abstract (User Portal)
+    - override in subclasses
+      -have private methods 'create...' (such as 'createNotifications') to create each component of UI
