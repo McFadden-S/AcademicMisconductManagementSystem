@@ -1,0 +1,74 @@
+
+Refactored Use Cases
+  shows the new list of use cases as well as any old use cases that 
+  they maintain, the only completely new case case is submit summary 
+  (which combines the two old use cases into one)
+*******************************************************************
+
+Report Case
+- log action
+- Display on Relevant user Portal
+
+Send Evidence
+- log action
+
+Review Reported Case
+- log action
+- Request More Evidence (opt)
+  - Display on Relevant user Portal
+
+Declare Case Type
+- log action
+- check student past offences
+
+Schedule
+- log action
+*note* directly tied to SCO now
+
+Create & Complete Form
+- log action
+- Send Email
+- Display on Relevant user Portal
+
+Confirm Attendance
+- log action
+
+Case Registered
+- log action
+- case closed (opt)
+
+Submit Summary
+- log action
+- Submit Interview Summary (opt)
+- Submit Hearing (opt)
+  *note* directly tied to SCO now
+- Refer Case (opt)
+- Case Dropped (opt)
+- Send Email (opt)
+- Display on Relevant user Portal (opt)
+
+**************************************
+
+Assignment
+**********
+
+Shermiaya
+- Create & Complete Form
+- Schedule
+
+Zakariya
+- Report Case
+- Review Reported Case
+
+Suhayb
+- Send Evidence
+- Declare Case Type
+
+Shae
+- Submit Summary
+- Case Registered
+
+Ahmed (optional have time)
+- Confirm Attendance
+
+**************************************
