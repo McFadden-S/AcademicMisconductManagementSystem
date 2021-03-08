@@ -1,8 +1,6 @@
 Design Patterns to use:
   - Abstract Factory
     - for UI
-  - Composite
-    - for creation of case, interview
 
   - invert diagram
     - UI above
@@ -10,6 +8,7 @@ Design Patterns to use:
 
 - have portals all be aligned
 - have arrows all go towards the center at 90deg, then go up straight
+- start all arrows from bottom or top of classes
   - make all lines vertical or horizontal
 
 - on UI
