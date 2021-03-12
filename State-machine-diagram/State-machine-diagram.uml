@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3gW3AHnaEeuAfpXG7hhtWw" name="State-machine-diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_3mD2YHnaEeuAfpXG7hhtWw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_3h5vIHnaEeuAfpXG7hhtWw" name="AMMS" visibility="public">
+    <region xmi:type="uml:Region" xmi:id="_3jKTYHnaEeuAfpXG7hhtWw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_uHZXgH2TEeuURrWfH1tbzw" source="_iNtMsH2TEeuURrWfH1tbzw" target="_Z5RUgIJ5EeuW7IMaa4k2jA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wLdhAH2TEeuURrWfH1tbzw" source="_nggjEH2TEeuURrWfH1tbzw" target="_Dz-J8IJ8EeuW7IMaa4k2jA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6OoPEH2TEeuURrWfH1tbzw" name="[enoughEvidence == true]" source="_vX59IH2TEeuURrWfH1tbzw" target="_1lMl0H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6zAugH2TEeuURrWfH1tbzw" name="[enoughEvidence == false]" source="_vX59IH2TEeuURrWfH1tbzw" target="_zLjN4H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_L6ZGMH2UEeuURrWfH1tbzw" source="_zLjN4H2TEeuURrWfH1tbzw" target="__lN5QH2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_a5WY0H2UEeuURrWfH1tbzw" name="/updateLog" source="_1lMl0H2TEeuURrWfH1tbzw" target="_BGRGMIJ_EeuW7IMaa4k2jA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rdHGEH2UEeuURrWfH1tbzw" source="_Un8FIH2UEeuURrWfH1tbzw" target="_jWCRQH2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sHOaEH2UEeuURrWfH1tbzw" source="_Un8FIH2UEeuURrWfH1tbzw" target="_eauN0H2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3N-sEH2UEeuURrWfH1tbzw" name="/updateLog" source="_eauN0H2UEeuURrWfH1tbzw" target="_zvvDkH2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GZmhsH2VEeuURrWfH1tbzw" source="_zvvDkH2UEeuURrWfH1tbzw" target="_zLjN4H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YmZpUH2VEeuURrWfH1tbzw" source="_jWCRQH2UEeuURrWfH1tbzw" target="_OAD8wH2VEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dWhwcH2VEeuURrWfH1tbzw" name="[ThirdPartyInvolvement == true]" source="_OAD8wH2VEeuURrWfH1tbzw" target="_ZhO54H2VEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j8h0EH2VEeuURrWfH1tbzw" name="[ThirdPartyInvolvement == false]" source="_OAD8wH2VEeuURrWfH1tbzw" target="_eu_YMH2VEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3XCsAH2VEeuURrWfH1tbzw" name="/updateLog" source="_ZhO54H2VEeuURrWfH1tbzw" target="_zvvDkH2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jvKRAH2WEeuURrWfH1tbzw" name="[result == noCase]" source="_Lz81EH2WEeuURrWfH1tbzw" target="_JQ30UH2WEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0AubAH2WEeuURrWfH1tbzw" source="_JQ30UH2WEeuURrWfH1tbzw" target="_zLjN4H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6UBIkIJ5EeuW7IMaa4k2jA" name="[infoValid == ture]" source="_Z5RUgIJ5EeuW7IMaa4k2jA" target="_nggjEH2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YR3cYIJ6EeuW7IMaa4k2jA" name="[infoValid == false]" source="_Z5RUgIJ5EeuW7IMaa4k2jA" target="_Z5RUgIJ5EeuW7IMaa4k2jA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AaYigIJ9EeuW7IMaa4k2jA" name="/updateLog" source="_Dz-J8IJ8EeuW7IMaa4k2jA" target="_vX59IH2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XTad0IJ_EeuW7IMaa4k2jA" source="_BGRGMIJ_EeuW7IMaa4k2jA" target="_Un8FIH2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s-2F4IM3EeutfowUXew10w" name="[result == misconduct]" source="_Lz81EH2WEeuURrWfH1tbzw" target="_Yc9WMIM3EeutfowUXew10w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YEBm4IM5EeutfowUXew10w" name="[result == PoorAcademicPractice]" source="_Lz81EH2WEeuURrWfH1tbzw" target="_JikoUH2WEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_joRtMIM5EeutfowUXew10w" name="[result == referral]" source="_Lz81EH2WEeuURrWfH1tbzw" target="_zvvDkH2UEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_PxGR8IM6EeutfowUXew10w" source="_JikoUH2WEeuURrWfH1tbzw" target="_zLjN4H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mm220IM8EeutfowUXew10w" source="_Yc9WMIM3EeutfowUXew10w" target="_zLjN4H2TEeuURrWfH1tbzw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_579DQIM8EeutfowUXew10w" source="_eu_YMH2VEeuURrWfH1tbzw" target="_Lz81EH2WEeuURrWfH1tbzw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_iNtMsH2TEeuURrWfH1tbzw"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nggjEH2TEeuURrWfH1tbzw" name="AddedToDB">
+        <doActivity xmi:type="uml:Activity" xmi:id="_ZXm1EIJ9EeuW7IMaa4k2jA" name="saveCase"/>
+        <entry xmi:type="uml:Activity" xmi:id="_4p-MIIJ6EeuW7IMaa4k2jA" name="connectToDB"/>
+        <exit xmi:type="uml:Activity" xmi:id="_fuO_8IJ9EeuW7IMaa4k2jA" name="updateLog"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_vX59IH2TEeuURrWfH1tbzw" name="IfEnoughEvidence" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_zLjN4H2TEeuURrWfH1tbzw" name="CloseCase">
+        <doActivity xmi:type="uml:Activity" xmi:id="_LewZcIJ-EeuW7IMaa4k2jA" name="updateDB"/>
+        <entry xmi:type="uml:Activity" xmi:id="_A91_cIJ-EeuW7IMaa4k2jA" name="accessDB"/>
+        <exit xmi:type="uml:Activity" xmi:id="_7bywQIM6EeutfowUXew10w" name="updateLog"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_1lMl0H2TEeuURrWfH1tbzw" name="ReferToDept">
+        <doActivity xmi:type="uml:Activity" xmi:id="_i8M7UIJ-EeuW7IMaa4k2jA" name="referCase"/>
+        <entry xmi:type="uml:Activity" xmi:id="_W7AaUIJ-EeuW7IMaa4k2jA" name="findDept"/>
+        <exit xmi:type="uml:Activity" xmi:id="_mBPZoIJ-EeuW7IMaa4k2jA" name="notifyDMTeam"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="__lN5QH2TEeuURrWfH1tbzw" name="CaseClosed"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Un8FIH2UEeuURrWfH1tbzw" name="PreviousOffences" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_eauN0H2UEeuURrWfH1tbzw" name="PreviousOffenceCase">
+        <doActivity xmi:type="uml:Activity" xmi:id="_9ZTC8IMzEeutfowUXew10w" name="completeReferralForm"/>
+        <entry xmi:type="uml:Activity" xmi:id="_pAk2UIMzEeutfowUXew10w" name="requestCaseDescription"/>
+        <exit xmi:type="uml:Activity" xmi:id="_FALUwIM0EeutfowUXew10w" name="sendCaseToSCO"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_jWCRQH2UEeuURrWfH1tbzw" name="NoPreviousOffenceCase">
+        <doActivity xmi:type="uml:Activity" xmi:id="_WyK6QIM1EeutfowUXew10w" name="checkType"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_zvvDkH2UEeuURrWfH1tbzw" name="CaseAtSCO">
+        <doActivity xmi:type="uml:Activity" xmi:id="_V1GqgIM0EeutfowUXew10w" name="scheduleHearing"/>
+        <exit xmi:type="uml:Activity" xmi:id="_i0sGYIM0EeutfowUXew10w" name="registerCaseByPSTeam"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_OAD8wH2VEeuURrWfH1tbzw" name="CaseType" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZhO54H2VEeuURrWfH1tbzw" name="ThirdPartyInvolvement">
+        <doActivity xmi:type="uml:Activity" xmi:id="_JipvgIM2EeutfowUXew10w" name="submitInterviewSummary"/>
+        <entry xmi:type="uml:Activity" xmi:id="_3uysUIM1EeutfowUXew10w" name="scheduleInvestigatoryInterview"/>
+        <exit xmi:type="uml:Activity" xmi:id="_PhOmwIM2EeutfowUXew10w" name="sendCaseToSCO"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_eu_YMH2VEeuURrWfH1tbzw" name="OtherOffences">
+        <doActivity xmi:type="uml:Activity" xmi:id="_01H7EIM2EeutfowUXew10w" name="submitInterviewSummary"/>
+        <entry xmi:type="uml:Activity" xmi:id="_pEwEUIM2EeutfowUXew10w" name="scheduleLAMPInterview"/>
+        <exit xmi:type="uml:Activity" xmi:id="_VIYKkIM4EeutfowUXew10w" name="checkInterviewResults"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_JQ30UH2WEeuURrWfH1tbzw" name="NoCase">
+        <doActivity xmi:type="uml:Activity" xmi:id="_zeLrYIM4EeutfowUXew10w" name="setCaseStatus(dropped)"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_JikoUH2WEeuURrWfH1tbzw" name="PoorAcademicPractice">
+        <doActivity xmi:type="uml:Activity" xmi:id="_PJ7HwIM7EeutfowUXew10w" name="setCaseStatus(registered)"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Lz81EH2WEeuURrWfH1tbzw" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Z5RUgIJ5EeuW7IMaa4k2jA" name="CaseCreational">
+        <doActivity xmi:type="uml:Activity" xmi:id="_SIC-cIJ6EeuW7IMaa4k2jA" name="enterInfo"/>
+        <entry xmi:type="uml:Activity" xmi:id="_LfbrsIJ6EeuW7IMaa4k2jA" name="createCase"/>
+        <exit xmi:type="uml:Activity" xmi:id="_d_59QIJ6EeuW7IMaa4k2jA" name="validateInfo"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Dz-J8IJ8EeuW7IMaa4k2jA" name="AMTeamChecking">
+        <doActivity xmi:type="uml:Activity" xmi:id="_5c7BIIJ8EeuW7IMaa4k2jA" name="reviewCase"/>
+        <exit xmi:type="uml:Activity" xmi:id="_86CoQIJ8EeuW7IMaa4k2jA" name="checkEvidence"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_BGRGMIJ_EeuW7IMaa4k2jA" name="CaseAtDept">
+        <doActivity xmi:type="uml:Activity" xmi:id="_PgBaAIJ_EeuW7IMaa4k2jA" name="verifyPreviousOffences"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Yc9WMIM3EeutfowUXew10w" name="MisconductCase">
+        <doActivity xmi:type="uml:Activity" xmi:id="_BRWgUIM5EeutfowUXew10w" name="checkCompletedForm"/>
+        <entry xmi:type="uml:Activity" xmi:id="_9klToIM4EeutfowUXew10w" name="sendFormToStudent"/>
+        <exit xmi:type="uml:Activity" xmi:id="_WjsnIIM6EeutfowUXew10w" name="setCaseStatus(misconduct)"/>
+      </subvertex>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8hLpIHzmEeuFfIRSrsIFuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8hM3QHzmEeuFfIRSrsIFuw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
