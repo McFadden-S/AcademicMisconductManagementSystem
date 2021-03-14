@@ -52,6 +52,9 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9jqVJ3H2Eeun9tWI8ZhAFw"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_9jqVKHH2Eeun9tWI8ZhAFw" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2aqqgITAEeuI0Llr2iHsOA" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2aqqgYTAEeuI0Llr2iHsOA" key="collapsed" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:Shape" xmi:id="_MK_ugHKSEeuRxKrHseXvEg" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_MKwd8HKSEeuRxKrHseXvEg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_MK_ugXKSEeuRxKrHseXvEg"/>
@@ -108,7 +111,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9jqVMXH2Eeun9tWI8ZhAFw"/>
     </children>
     <element xmi:type="uml:Class" href="Refactored%20Class%20Diagram.uml#_9jof8HH2Eeun9tWI8ZhAFw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9jpuEXH2Eeun9tWI8ZhAFw" x="-880" y="580" width="461" height="461"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9jpuEXH2Eeun9tWI8ZhAFw" x="-880" y="580" width="461" height="501"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_dzymoHKREeuRxKrHseXvEg" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_dzymonKREeuRxKrHseXvEg" type="Class_NameLabel"/>
