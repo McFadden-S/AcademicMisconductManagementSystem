@@ -7,7 +7,7 @@ Design Patterns to use:
     - objects (case, interview, etc.) under
 
 - have portals all be aligned
-- have arrows all go towards the center at 90deg, then go up straight
+- have arrows all go towards the centre at 90deg, then go up straight
 - start all arrows from cardinal directions
   - make all lines vertical or horizontal
 
@@ -15,3 +15,11 @@ Design Patterns to use:
   - have 'createUI' abstract (User Portal)
     - override in subclasses
       -have private methods 'create...' (such as 'createNotifications') to create each component of UI
+      
+- add a get userActorGroup method to User Portal
+
+- case add hearing summary and setHearingSummary
+
+- for DMT add schedule to lamp methods
+
+- remove send case to other department from notifier

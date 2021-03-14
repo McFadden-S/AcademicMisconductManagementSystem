@@ -28,6 +28,9 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_KEniAHH8EeupR5BiUQ6d3w" name="evidence" visibility="private" type="_5RaDgHH7EeupR5BiUQ6d3w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_PB_a8HH8EeupR5BiUQ6d3w" name="details" visibility="private" type="_SYutQHH8EeupR5BiUQ6d3w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_TrlcQHH8EeupR5BiUQ6d3w" name="log" visibility="private" type="_WdPrkHH8EeupR5BiUQ6d3w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RLqpAITbEeuPW4_GbeZpXg" name="hearingSummary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_JNjF8HKSEeuRxKrHseXvEg" name="changeStatus(Enum state)"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_MKwd8HKSEeuRxKrHseXvEg" name="changeStatus">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_-EgfgHKSEeuRxKrHseXvEg" name="state" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg" effect="create"/>
@@ -56,6 +59,13 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BzFVcITbEeuPW4_GbeZpXg" name="setHearingSummary" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UqvX8ITbEeuPW4_GbeZpXg" name="summary" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c7BzIITbEeuPW4_GbeZpXg" name="getHearingSummary"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sVlcoITbEeuPW4_GbeZpXg" name="getInterviewSummary"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_rPuOQHH3Eeun9tWI8ZhAFw" name="misconductType" visibility="private"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_vI-XwHH3Eeun9tWI8ZhAFw" name="assessmentType" visibility="private"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wkkMAHH3Eeun9tWI8ZhAFw" name="term" visibility="private"/>
@@ -138,6 +148,7 @@
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XxkmUH6WEeu8GtK6MCY66g" name="createUserInterface" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_S5LwMITaEeuPW4_GbeZpXg" name="getUserActorGroup"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Qbe6AHKXEeuVmc8zEW6hNQ" name="ModuleStaffPortal">
     <generalization xmi:type="uml:Generalization" xmi:id="_vnXRwHKYEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
@@ -173,8 +184,8 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_jo--wHKZEeuVmc8zEW6hNQ" name="evidence" visibility="private" type="_N6C00HKTEeuRxKrHseXvEg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_UJRmwH6SEeu8GtK6MCY66g" name="showNotifications"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_UJUqEH6SEeu8GtK6MCY66g" name="showCaseList"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_UJY7gH6SEeu8GtK6MCY66g" name="showCase">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UJUqEH6SEeu8GtK6MCY66g" name="showCaseList" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UJY7gH6SEeu8GtK6MCY66g" name="showCase" visibility="private">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_UJY7gX6SEeu8GtK6MCY66g" name="caseId" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -203,12 +214,12 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_SR8sYHKXEeuVmc8zEW6hNQ" name="AMTPortal">
     <generalization xmi:type="uml:Generalization" xmi:id="_0v_N4HKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_u_oG4HKZEeuVmc8zEW6hNQ" name="showMisconductTypeForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u_oG4HKZEeuVmc8zEW6hNQ" name="showMisconductTypeForm" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_vwBpEHKZEeuVmc8zEW6hNQ" name="submitMisconductTypeForm">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_xmYGsHKZEeuVmc8zEW6hNQ" name="misconductType" visibility="private" type="_L4zAsHKREeuRxKrHseXvEg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_U4lj0H6SEeu8GtK6MCY66g" name="showCaseList"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_U4oAEH6SEeu8GtK6MCY66g" name="showCase">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U4lj0H6SEeu8GtK6MCY66g" name="showCaseList" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U4oAEH6SEeu8GtK6MCY66g" name="showCase" visibility="private">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_U4oAEX6SEeu8GtK6MCY66g" name="caseId" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -220,8 +231,8 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_SwwvUHKXEeuVmc8zEW6hNQ" name="DMTPortal">
     <generalization xmi:type="uml:Generalization" xmi:id="_226eIHKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zkQIoHKZEeuVmc8zEW6hNQ" name="interview" visibility="private" type="_X9ZowHKWEeuVmc8zEW6hNQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_1Ft7YHKZEeuVmc8zEW6hNQ" name="showScheduleInvestigatoryInterviewForm"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_2IwswHKZEeuVmc8zEW6hNQ" name="showLAMPInterviewForm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1Ft7YHKZEeuVmc8zEW6hNQ" name="showScheduleInvestigatoryInterviewForm" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2IwswHKZEeuVmc8zEW6hNQ" name="showLAMPInterviewForm" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_299PYHKZEeuVmc8zEW6hNQ" name="submitScheduleInvestigatoryInterviewForm">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_39FKEHKZEeuVmc8zEW6hNQ" visibility="private"/>
     </ownedOperation>
@@ -238,6 +249,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_UmXycH6SEeu8GtK6MCY66g" name="showNotifications"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_kYW7oITAEeuI0Llr2iHsOA" name="createUserInterface"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_xmvogITAEeuI0Llr2iHsOA" name="createNotifications" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qLkRkITaEeuPW4_GbeZpXg" name="scheduleLAMPInterview"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_TeRVkHKXEeuVmc8zEW6hNQ" name="StudentPortal">
     <generalization xmi:type="uml:Generalization" xmi:id="_33rXkHKXEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
@@ -254,13 +266,13 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_H5h_sHKaEeuVmc8zEW6hNQ" name="submitSignedForm">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_KveSEHKaEeuVmc8zEW6hNQ" name="form" visibility="private" type="_N6C00HKTEeuRxKrHseXvEg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_VOPqwH6SEeu8GtK6MCY66g" name="showCase">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VOPqwH6SEeu8GtK6MCY66g" name="showCase" visibility="private">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_VOPqwX6SEeu8GtK6MCY66g" name="caseId" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_VOSuEH6SEeu8GtK6MCY66g" name="showNotifications"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_VOVKUH6SEeu8GtK6MCY66g" name="showCaseList"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VOVKUH6SEeu8GtK6MCY66g" name="showCaseList" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_oZjgMITAEeuI0Llr2iHsOA" name="createUserInterface"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_yyrQIITAEeuI0Llr2iHsOA" name="createNotifications" visibility="private"/>
   </packagedElement>
@@ -321,7 +333,7 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_R04FwH6TEeu8GtK6MCY66g" client="_SR8sYHKXEeuVmc8zEW6hNQ" supplier="_WbAMcHKXEeuVmc8zEW6hNQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_SgeAcH6TEeu8GtK6MCY66g" client="_SwwvUHKXEeuVmc8zEW6hNQ" supplier="_WbAMcHKXEeuVmc8zEW6hNQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_TwoAwH6TEeu8GtK6MCY66g" client="_SR8sYHKXEeuVmc8zEW6hNQ" supplier="_I0ezwHKUEeuVmc8zEW6hNQ"/>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_U4iEAH6TEeu8GtK6MCY66g" client="_TeRVkHKXEeuVmc8zEW6hNQ" supplier="_WbAMcHKXEeuVmc8zEW6hNQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_U4iEAH6TEeu8GtK6MCY66g" client="_TeRVkHKXEeuVmc8zEW6hNQ" supplier="_50MEoHH0Eeun9tWI8ZhAFw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Wc4ysH6TEeu8GtK6MCY66g" client="_TeRVkHKXEeuVmc8zEW6hNQ" supplier="_I0ezwHKUEeuVmc8zEW6hNQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Xv22cH6TEeu8GtK6MCY66g" client="_SR8sYHKXEeuVmc8zEW6hNQ" supplier="_WbAMcHKXEeuVmc8zEW6hNQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Zm5QkH6TEeu8GtK6MCY66g" client="_TeRVkHKXEeuVmc8zEW6hNQ" supplier="_WdPrkHH8EeupR5BiUQ6d3w"/>
