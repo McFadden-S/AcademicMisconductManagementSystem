@@ -371,10 +371,6 @@
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UJUqEH6SEeu8GtK6MCY66g"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_UJgQQ36SEeu8GtK6MCY66g"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_UJfpMH6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UJY7gH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_UJfpMX6SEeu8GtK6MCY66g"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_QbgIKXKXEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_QbgIKnKXEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_QbgIK3KXEeuVmc8zEW6hNQ"/>
@@ -416,10 +412,6 @@
       <children xmi:type="notation:Shape" xmi:id="_TFYg0H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_TFSaMH6SEeu8GtK6MCY66g"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_TFYg0X6SEeu8GtK6MCY66g"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_TFZH4H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_TFUPYH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_TFZH4X6SEeu8GtK6MCY66g"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_jkRzUITAEeuI0Llr2iHsOA" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_jj2VgITAEeuI0Llr2iHsOA"/>
@@ -475,10 +467,6 @@
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_U4lj0H6SEeu8GtK6MCY66g"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_U4wi836SEeu8GtK6MCY66g"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_U4v74H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_U4oAEH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_U4v74X6SEeu8GtK6MCY66g"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_SR-hkXKXEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_SR-hknKXEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_SR-hk3KXEeuVmc8zEW6hNQ"/>
@@ -528,10 +516,6 @@
       <children xmi:type="notation:Shape" xmi:id="_Umd5EH6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UmVWMH6SEeu8GtK6MCY66g"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Umd5EX6SEeu8GtK6MCY66g"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_Umcq8H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UmSS4H6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Umcq8X6SEeu8GtK6MCY66g"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_kYxLUITAEeuI0Llr2iHsOA" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_kYW7oITAEeuI0Llr2iHsOA"/>
@@ -598,10 +582,6 @@
       <children xmi:type="notation:Shape" xmi:id="_VObQ8H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_VOVKUH6SEeu8GtK6MCY66g"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_VObQ8X6SEeu8GtK6MCY66g"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_VOap4H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_VOPqwH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_VOap4X6SEeu8GtK6MCY66g"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_TeSjuXKXEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_TeSjunKXEeuVmc8zEW6hNQ"/>
