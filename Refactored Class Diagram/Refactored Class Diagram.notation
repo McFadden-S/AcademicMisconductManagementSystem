@@ -293,17 +293,25 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc4Fp3KWEeuVmc8zEW6hNQ"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_lc4FqHKWEeuVmc8zEW6hNQ" type="Class_OperationCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_XyU0QH6WEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_XxkmUH6WEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_XyU0QX6WEeu8GtK6MCY66g"/>
+      <children xmi:type="notation:Shape" xmi:id="_qQbYwIZhEeu9XN-kEbKxQQ" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_qOkXkIZhEeu9XN-kEbKxQQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qQbYwYZhEeu9XN-kEbKxQQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sbSt0IZhEeu9XN-kEbKxQQ" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_saomgIZhEeu9XN-kEbKxQQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sbSt0YZhEeu9XN-kEbKxQQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_S53ssITaEeuPW4_GbeZpXg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_S5LwMITaEeuPW4_GbeZpXg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S54TwITaEeuPW4_GbeZpXg"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_JfmF8HKXEeuVmc8zEW6hNQ" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_JfYqkHKXEeuVmc8zEW6hNQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_JfmF8XKXEeuVmc8zEW6hNQ"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_S53ssITaEeuPW4_GbeZpXg" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_S5LwMITaEeuPW4_GbeZpXg"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_S54TwITaEeuPW4_GbeZpXg"/>
+      <children xmi:type="notation:Shape" xmi:id="_XyU0QH6WEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_XxkmUH6WEeu8GtK6MCY66g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XyU0QX6WEeu8GtK6MCY66g"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_lc4FqXKWEeuVmc8zEW6hNQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_lc4FqnKWEeuVmc8zEW6hNQ"/>
@@ -404,10 +412,6 @@
       <children xmi:type="notation:Shape" xmi:id="_tLtSMHKZEeuVmc8zEW6hNQ" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_tLYiEHKZEeuVmc8zEW6hNQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_tLtSMXKZEeuVmc8zEW6hNQ"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_P5DuwH6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_P4_dUH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_P5EV0H6SEeu8GtK6MCY66g"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_TFYg0H6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_TFSaMH6SEeu8GtK6MCY66g"/>
@@ -520,10 +524,6 @@
       <children xmi:type="notation:Shape" xmi:id="__DRJoHKZEeuVmc8zEW6hNQ" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#__C59QHKZEeuVmc8zEW6hNQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="__DRJoXKZEeuVmc8zEW6hNQ"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_UmdSAH6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UmXycH6SEeu8GtK6MCY66g"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_UmdSAX6SEeu8GtK6MCY66g"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_Umd5EH6SEeu8GtK6MCY66g" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="Refactored%20Class%20Diagram.uml#_UmVWMH6SEeu8GtK6MCY66g"/>

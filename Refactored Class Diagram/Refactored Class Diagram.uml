@@ -149,6 +149,12 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XxkmUH6WEeu8GtK6MCY66g" name="createUserInterface" isAbstract="true"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_S5LwMITaEeuPW4_GbeZpXg" name="getUserActorGroup"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qOkXkIZhEeu9XN-kEbKxQQ" name="showCaseList" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_saomgIZhEeu9XN-kEbKxQQ" name="showCase" visibility="public" isAbstract="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5SVRsIZhEeu9XN-kEbKxQQ" name="caseID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Qbe6AHKXEeuVmc8zEW6hNQ" name="ModuleStaffPortal">
     <generalization xmi:type="uml:Generalization" xmi:id="_vnXRwHKYEeuVmc8zEW6hNQ" general="_lc23gHKWEeuVmc8zEW6hNQ"/>
