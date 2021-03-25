@@ -1047,6 +1047,12 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Jvgu6H6YEeu8GtK6MCY66g" x="55" y="-10"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Jvgu6X6YEeu8GtK6MCY66g" type="Association_SourceRoleLabel">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h2NQYI2yEeuFus7lx5iFwg" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h2QTsI2yEeuFus7lx5iFwg" key="ShadowFigure_Value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iflkkI2yEeuFus7lx5iFwg" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iflkkY2yEeuFus7lx5iFwg" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_LH7TUH6YEeu8GtK6MCY66g" name="IS_UPDATED_POSITION" booleanValue="true"/>
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Jvgu6n6YEeu8GtK6MCY66g" x="-62" y="10"/>
     </children>
