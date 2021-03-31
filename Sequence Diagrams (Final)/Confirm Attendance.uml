@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_to2P4INdEeuNMuQllUB2xA" name="Sequence Diagrams">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_to2P4INdEeuNMuQllUB2xA" name="Confirm Attendance">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_tqTocINdEeuNMuQllUB2xA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_wtklIINdEeuNMuQllUB2xA" name="ConfirmAttendence">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_wtklIINdEeuNMuQllUB2xA" name="Confirm Attendance">
     <lifeline xmi:type="uml:Lifeline" xmi:id="_kEV-UINeEeuNMuQllUB2xA" name="Student" coveredBy="_r-2r4INgEeuNMuQllUB2xA _jcxwkIN1EeuNMuQllUB2xA _vXBfkIN2EeuYXLtCchLq2A _IUDm4YNhEeuNMuQllUB2xA _56VvUYNgEeuNMuQllUB2xA _2nZ88IN2EeuYXLtCchLq2A _2nZV4IN2EeuYXLtCchLq2A _FAlwYIN0EeuNMuQllUB2xA _2nZ88YN2EeuYXLtCchLq2A _687oMIN1EeuNMuQllUB2xA _687BIIN1EeuNMuQllUB2xA __rwu0IN1EeuNMuQllUB2xA _687oMYN1EeuNMuQllUB2xA _dLQ7wINgEeuNMuQllUB2xA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_UCHbYINfEeuNMuQllUB2xA" name="Database" coveredBy="_r-2r4YNgEeuNMuQllUB2xA _vXCGoIN2EeuYXLtCchLq2A _IUDm4INhEeuNMuQllUB2xA _56VvUINgEeuNMuQllUB2xA _NsqvsIN0EeuNMuQllUB2xA _NsqIoIN0EeuNMuQllUB2xA _hc1HgYN0EeuNMuQllUB2xA __rwHwYN1EeuNMuQllUB2xA _kfKAIINgEeuNMuQllUB2xA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_Y8-L0INfEeuNMuQllUB2xA" name="StudentAccount" coveredBy="_7JrswINfEeuNMuQllUB2xA _jcxJgYN1EeuNMuQllUB2xA _1FeHkINfEeuNMuQllUB2xA _1FZPEINfEeuNMuQllUB2xA _FAlwYYN0EeuNMuQllUB2xA _hc1HgIN0EeuNMuQllUB2xA _Aq5GAIN1EeuNMuQllUB2xA"/>
@@ -45,5 +45,4 @@
     <message xmi:type="uml:Message" xmi:id="__rwHwIN1EeuNMuQllUB2xA" name="confirmation email" messageSort="asynchCall" receiveEvent="__rwu0IN1EeuNMuQllUB2xA" sendEvent="__rwHwYN1EeuNMuQllUB2xA"/>
     <message xmi:type="uml:Message" xmi:id="_vXARcIN2EeuYXLtCchLq2A" name="login" receiveEvent="_vXCGoIN2EeuYXLtCchLq2A" sendEvent="_vXBfkIN2EeuYXLtCchLq2A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:DurationObservation" xmi:id="_ljhlMIN2EeuYXLtCchLq2A" name="in 5 days" event="_2nZ88IN2EeuYXLtCchLq2A _hc1HgYN0EeuNMuQllUB2xA"/>
 </uml:Model>

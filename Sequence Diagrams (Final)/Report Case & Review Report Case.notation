@@ -7,24 +7,24 @@
         <children xmi:type="notation:Shape" xmi:id="_cmG5UIytEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_cmG5UoytEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:Shape" xmi:id="_poKaYIytEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_pnjWYIytEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_pnjWYIytEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_poKaYYytEeuwXI6RzTJ_ng" x="40" y="66" width="20" height="320"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_cmAysIytEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_cmAysIytEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmG5UYytEeuwXI6RzTJ_ng" x="114" y="10"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_dBIocIytEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_dBJPgIytEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:Shape" xmi:id="_s9Qt8IytEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_s9CEcIytEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_s9CEcIytEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s9Qt8YytEeuwXI6RzTJ_ng" x="40" y="66" width="20" height="321"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_dA_egIytEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_dA_egIytEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBIocYytEeuwXI6RzTJ_ng" x="334" y="10"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_dWhCkIytEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_dWhpoIytEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_dWXRkIytEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_dWXRkIytEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dWhCkYytEeuwXI6RzTJ_ng" x="534" y="107" width="100" height="150"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_iCtE4IytEeuwXI6RzTJ_ng" type="Lifeline_Shape">
@@ -33,23 +33,23 @@
             <children xmi:type="notation:DecorationNode" xmi:id="_6plUAYytEeuwXI6RzTJ_ng" type="BehaviorExecutionSpecification_Behavior">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_6pl7EIytEeuwXI6RzTJ_ng" x="18" y="18"/>
             </children>
-            <element xmi:type="uml:BehaviorExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_6pje0IytEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:BehaviorExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_6pje0IytEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6plUAIytEeuwXI6RzTJ_ng" x="40" y="266" width="20" height="100"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_iCkiAIytEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_iCkiAIytEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iCtE4YytEeuwXI6RzTJ_ng" x="674" y="10"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jt0ktIytEeuwXI6RzTJ_ng"/>
       </children>
-      <element xmi:type="uml:Interaction" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_JrRnAIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Interaction" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_JrRnAIytEeuwXI6RzTJ_ng"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jt0ktYytEeuwXI6RzTJ_ng"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Jt0ktoytEeuwXI6RzTJ_ng" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Jt0kt4ytEeuwXI6RzTJ_ng"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Jt0kuIytEeuwXI6RzTJ_ng" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
-      <owner xmi:type="uml:Model" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_Jn4UwIytEeuwXI6RzTJ_ng"/>
+      <owner xmi:type="uml:Model" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_Jn4UwIytEeuwXI6RzTJ_ng"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_JrRnAIytEeuwXI6RzTJ_ng"/>
+    <element xmi:type="uml:Interaction" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_JrRnAIytEeuwXI6RzTJ_ng"/>
     <edges xmi:type="notation:Connector" xmi:id="_ry2JQIytEeuwXI6RzTJ_ng" type="Message_SynchEdge" source="_cmG5UIytEeuwXI6RzTJ_ng" target="_dBIocIytEeuwXI6RzTJ_ng">
       <children xmi:type="notation:DecorationNode" xmi:id="_ry2wUIytEeuwXI6RzTJ_ng" type="Message_SynchNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ry3XYIytEeuwXI6RzTJ_ng" x="1" y="-13"/>
@@ -58,7 +58,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ry3XYoytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_ry2JQYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_rl2PEIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_rl2PEIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ry2JQoytEeuwXI6RzTJ_ng" points="[-10, 0, -230, 0]$[220, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r0M0IIytEeuwXI6RzTJ_ng" id="(0.5,0.09428571428571429)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r0M0IYytEeuwXI6RzTJ_ng" id="(0.5,0.09428571428571429)"/>
@@ -71,7 +71,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_r0wNwoytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_r0vmsYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_r0tKcIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_r0tKcIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r0vmsoytEeuwXI6RzTJ_ng" points="[0, 0, 220, 0]$[-230, 0, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r05XsIytEeuwXI6RzTJ_ng" id="(0.5,0.5514285714285714)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r05XsYytEeuwXI6RzTJ_ng" id="(0.5,0.5514285714285714)"/>
@@ -84,7 +84,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_zIikc4ytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_zIh9YYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_zISFwIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_zISFwIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zIh9YoytEeuwXI6RzTJ_ng" points="[-10, -8, -210, 0]$[200, -8, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zJJocIytEeuwXI6RzTJ_ng" id="(0.5,0.15142857142857144)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zJJocYytEeuwXI6RzTJ_ng" id="(0.5,0.06000000000000006)"/>
@@ -97,7 +97,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0CsfkIytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_0Cr4gYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_0CedIIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_0CedIIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Cr4goytEeuwXI6RzTJ_ng" points="[0, 0, 200, 0]$[-210, 0, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0DS8gIytEeuwXI6RzTJ_ng" id="(0.5,0.5933333333333334)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0DS8gYytEeuwXI6RzTJ_ng" id="(0.5,0.26571428571428574)"/>
@@ -110,7 +110,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_6ovmhoytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_6ovmgYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_6ohkEIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_6ohkEIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ovmgoytEeuwXI6RzTJ_ng" points="[-10, -1, -350, -80]$[340, 79, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pRK8IytEeuwXI6RzTJ_ng" id="(0.5,0.38)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pRK8YytEeuwXI6RzTJ_ng" id="(0.5,0.38)"/>
@@ -123,7 +123,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_6pqMhoytEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_6pqMgYytEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_6poXUIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_6poXUIytEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6pqMgoytEeuwXI6RzTJ_ng" points="[0, 0, 340, 0]$[-350, 0, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pvFAIytEeuwXI6RzTJ_ng" id="(0.5,0.5228571428571429)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pvFAYytEeuwXI6RzTJ_ng" id="(0.5,0.5228571428571429)"/>
@@ -137,30 +137,30 @@
           <children xmi:type="notation:BasicCompartment" xmi:id="_2faHsoyvEeuwXI6RzTJ_ng" type="CombinedFragment_SubfragmentCompartment">
             <children xmi:type="notation:Shape" xmi:id="_2fauwIyvEeuwXI6RzTJ_ng" type="InteractionOperand_Shape">
               <children xmi:type="notation:DecorationNode" xmi:id="_2fauwoyvEeuwXI6RzTJ_ng" type="InteractionOperand_Guard">
-                <element xmi:type="uml:InteractionConstraint" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_2fRk0YyvEeuwXI6RzTJ_ng"/>
+                <element xmi:type="uml:InteractionConstraint" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_2fRk0YyvEeuwXI6RzTJ_ng"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2fauw4yvEeuwXI6RzTJ_ng" x="5" y="5"/>
               </children>
-              <element xmi:type="uml:InteractionOperand" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_2fRk0IyvEeuwXI6RzTJ_ng"/>
+              <element xmi:type="uml:InteractionOperand" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_2fRk0IyvEeuwXI6RzTJ_ng"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2fauwYyvEeuwXI6RzTJ_ng" width="741" height="262"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_2faHs4yvEeuwXI6RzTJ_ng"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_2faHtIyvEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2faHtYyvEeuwXI6RzTJ_ng"/>
           </children>
-          <element xmi:type="uml:CombinedFragment" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_2fQWsIyvEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:CombinedFragment" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_2fQWsIyvEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2faHsYyvEeuwXI6RzTJ_ng" x="94" y="376" width="741" height="281"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_KbuXEIyuEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_KbuXEoyuEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:Shape" xmi:id="_lj9IoIyuEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_lj0lwIyuEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_lj0lwIyuEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lj9IoYyuEeuwXI6RzTJ_ng" x="40" y="106" width="20" height="220"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_5w2DQIyvEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_5wrEIIyvEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_5wrEIIyvEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5w2DQYyvEeuwXI6RzTJ_ng" x="40" y="446" width="20" height="100"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_KbrTwIyuEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_KbrTwIyuEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KbuXEYyuEeuwXI6RzTJ_ng" x="94" y="10"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_K2NToIyuEeuwXI6RzTJ_ng" type="Lifeline_Shape">
@@ -169,48 +169,48 @@
             <children xmi:type="notation:DecorationNode" xmi:id="_SsWekIywEeuwXI6RzTJ_ng" type="BehaviorExecutionSpecification_Behavior">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_SsWekYywEeuwXI6RzTJ_ng" x="18" y="18"/>
             </children>
-            <element xmi:type="uml:BehaviorExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_SsUpYIywEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:BehaviorExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_SsUpYIywEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsV3gYywEeuwXI6RzTJ_ng" x="40" y="446" width="20" height="100"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_K2JpQIyuEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_K2JpQIyuEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K2NToYyuEeuwXI6RzTJ_ng" x="294" y="10"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_LQElIIyuEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_LQFMMIyuEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:Shape" xmi:id="_quc3kIyuEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_quU7wIyuEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_quU7wIyuEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qudeoIyuEeuwXI6RzTJ_ng" x="40" y="106" width="20" height="220"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_LQA6wIyuEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_LQA6wIyuEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LQElIYyuEeuwXI6RzTJ_ng" x="514" y="10"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Liys0IyuEeuwXI6RzTJ_ng" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_Liys0oyuEeuwXI6RzTJ_ng" type="Lifeline_NameLabel"/>
           <children xmi:type="notation:Shape" xmi:id="_pin9oIyuEeuwXI6RzTJ_ng" type="ActionExecutionSpecification_Shape">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_pifawIyuEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_pifawIyuEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pin9oYyuEeuwXI6RzTJ_ng" x="40" y="106" width="20" height="201"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_e26W8IywEeuwXI6RzTJ_ng" type="BehaviorExecutionSpecification_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_e26-AIywEeuwXI6RzTJ_ng" type="BehaviorExecutionSpecification_Behavior">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_e26-AYywEeuwXI6RzTJ_ng" x="18" y="18"/>
             </children>
-            <element xmi:type="uml:BehaviorExecutionSpecification" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_e25I0IywEeuwXI6RzTJ_ng"/>
+            <element xmi:type="uml:BehaviorExecutionSpecification" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_e25I0IywEeuwXI6RzTJ_ng"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e26W8YywEeuwXI6RzTJ_ng" x="40" y="466" width="20" height="61"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_LitNQIyuEeuwXI6RzTJ_ng"/>
+          <element xmi:type="uml:Lifeline" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_LitNQIyuEeuwXI6RzTJ_ng"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Liys0YyuEeuwXI6RzTJ_ng" x="754" y="10"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYj1hIytEeuwXI6RzTJ_ng"/>
       </children>
-      <element xmi:type="uml:Interaction" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_NZx5EIytEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Interaction" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_NZx5EIytEeuwXI6RzTJ_ng"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYj1hYytEeuwXI6RzTJ_ng"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_OYj1hoytEeuwXI6RzTJ_ng" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_OYj1h4ytEeuwXI6RzTJ_ng"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_OYj1iIytEeuwXI6RzTJ_ng" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
-      <owner xmi:type="uml:Model" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_Jn4UwIytEeuwXI6RzTJ_ng"/>
+      <owner xmi:type="uml:Model" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_Jn4UwIytEeuwXI6RzTJ_ng"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_NZx5EIytEeuwXI6RzTJ_ng"/>
+    <element xmi:type="uml:Interaction" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_NZx5EIytEeuwXI6RzTJ_ng"/>
     <edges xmi:type="notation:Connector" xmi:id="_mmTWcIyuEeuwXI6RzTJ_ng" type="Message_SynchEdge" source="_KbuXEIyuEeuwXI6RzTJ_ng" target="_LQElIIyuEeuwXI6RzTJ_ng">
       <children xmi:type="notation:DecorationNode" xmi:id="_mmTWc4yuEeuwXI6RzTJ_ng" type="Message_SynchNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mmTWdIyuEeuwXI6RzTJ_ng" x="-54" y="-13"/>
@@ -219,7 +219,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mmTWdoyuEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_mmTWcYyuEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_mmFUAIyuEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_mmFUAIyuEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mmTWcoyuEeuwXI6RzTJ_ng" points="[-10, 0, -210, 0]$[200, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mmsYAIyuEeuwXI6RzTJ_ng" id="(0.5,0.15142857142857144)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mmsYAYyuEeuwXI6RzTJ_ng" id="(0.5,0.15142857142857144)"/>
@@ -232,7 +232,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_vjOOI4yuEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_vjNnEYyuEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_vi428IyuEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_vi428IyuEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vjNnEoyuEeuwXI6RzTJ_ng" points="[-10, 4, 410, -120]$[-430, 124, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vjkzcIyuEeuwXI6RzTJ_ng" id="(0.5,0.4657142857142857)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vjkzcYyuEeuwXI6RzTJ_ng" id="(0.5,0.4657142857142857)"/>
@@ -245,7 +245,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xFi8g4yuEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_xFiVcYyuEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_xFWIMIyuEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_xFWIMIyuEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xFiVcoyuEeuwXI6RzTJ_ng" points="[-10, 7, -250, 20]$[230, -13, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xF3FkIyuEeuwXI6RzTJ_ng" id="(0.5,0.15142857142857144)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xF3FkYyuEeuwXI6RzTJ_ng" id="(0.5,0.15142857142857144)"/>
@@ -258,7 +258,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_yJcphoyuEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_yJcpgYyuEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_yJRDUIyuEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_yJRDUIyuEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yJcpgoyuEeuwXI6RzTJ_ng" points="[-10, 0, 230, 0]$[-250, 0, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yJ1rEIyuEeuwXI6RzTJ_ng" id="(0.5,0.43714285714285717)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yJ1rEYyuEeuwXI6RzTJ_ng" id="(0.5,0.43714285714285717)"/>
@@ -271,7 +271,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_SrgKA4ywEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Srfi8YywEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_SrHIcIywEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_SrHIcIywEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Srfi8oywEeuwXI6RzTJ_ng" points="[-10, 0, -210, 0]$[200, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SsBucIywEeuwXI6RzTJ_ng" id="(0.5,0.6371428571428571)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SsCVgIywEeuwXI6RzTJ_ng" id="(0.5,0.6371428571428571)"/>
@@ -284,7 +284,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_SsgPkoywEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_SsfogYywEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_SsYTwIywEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_SsYTwIywEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SsfogoywEeuwXI6RzTJ_ng" points="[0, 0, 200, 0]$[-210, 0, -10, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ssj58IywEeuwXI6RzTJ_ng" id="(0.5,0.78)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ssj58YywEeuwXI6RzTJ_ng" id="(0.5,0.78)"/>
@@ -297,7 +297,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_e2KwFoywEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_e2KwEYywEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_e197wIywEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_e197wIywEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e2KwEoywEeuwXI6RzTJ_ng" points="[-10, -6, -470, 40]$[460, -46, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e2oqIIywEeuwXI6RzTJ_ng" id="(0.5,0.6657142857142857)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e2oqIYywEeuwXI6RzTJ_ng" id="(0.5,0.6657142857142857)"/>
@@ -310,7 +310,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_e2_PdoywEeuwXI6RzTJ_ng" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_e2_PcYywEeuwXI6RzTJ_ng"/>
-      <element xmi:type="uml:Message" href="Review%20Report%20Case%20and%20Report%20Case%20Sequence%20Diagrams.uml#_e29aQIywEeuwXI6RzTJ_ng"/>
+      <element xmi:type="uml:Message" href="Report%20Case%20&amp;%20Review%20Report%20Case.uml#_e29aQIywEeuwXI6RzTJ_ng"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e2_PcoywEeuwXI6RzTJ_ng" points="[0, 0, 460, 0]$[-460, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e3EH8IywEeuwXI6RzTJ_ng" id="(0.5,0.7514285714285714)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e3EH8YywEeuwXI6RzTJ_ng" id="(0.5,0.7514285714285714)"/>
