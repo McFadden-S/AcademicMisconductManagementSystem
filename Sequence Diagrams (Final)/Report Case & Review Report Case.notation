@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
-  <notation:Diagram xmi:id="_Jt0ksIytEeuwXI6RzTJ_ng" type="PapyrusUMLSequenceDiagram" name="ReportCase" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_Jt0ksIytEeuwXI6RzTJ_ng" type="PapyrusUMLSequenceDiagram" name="Report Case" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_Jt0ksYytEeuwXI6RzTJ_ng" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_Jt0ksoytEeuwXI6RzTJ_ng" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_Jt0ks4ytEeuwXI6RzTJ_ng" type="Interaction_SubfragmentCompartment">
@@ -129,7 +129,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6pvFAYytEeuwXI6RzTJ_ng" id="(0.5,0.5228571428571429)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_OYj1gIytEeuwXI6RzTJ_ng" type="PapyrusUMLSequenceDiagram" name="ReviewReportedCase" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_OYj1gIytEeuwXI6RzTJ_ng" type="PapyrusUMLSequenceDiagram" name="Review Reported Case" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_OYj1gYytEeuwXI6RzTJ_ng" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_OYj1goytEeuwXI6RzTJ_ng" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_OYj1g4ytEeuwXI6RzTJ_ng" type="Interaction_SubfragmentCompartment">

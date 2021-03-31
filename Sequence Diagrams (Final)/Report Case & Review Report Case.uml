@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Jn4UwIytEeuwXI6RzTJ_ng" name="Review Report Case and Report Case Sequence Diagrams">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Jn4UwIytEeuwXI6RzTJ_ng" name="Report Case &amp; Review Reported Case">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_JzgV8IytEeuwXI6RzTJ_ng">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_JrRnAIytEeuwXI6RzTJ_ng" name="ReportCase">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_JrRnAIytEeuwXI6RzTJ_ng" name="Report Case">
     <lifeline xmi:type="uml:Lifeline" xmi:id="_cmAysIytEeuwXI6RzTJ_ng" name=":ModuleStaffPortal" coveredBy="_rmAAEIytEeuwXI6RzTJ_ng _pn8X8YytEeuwXI6RzTJ_ng _pnjWYIytEeuwXI6RzTJ_ng _r0uYkIytEeuwXI6RzTJ_ng"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_dA_egIytEeuwXI6RzTJ_ng" name=":CaseManager" coveredBy="_rmAAEYytEeuwXI6RzTJ_ng _zISs0IytEeuwXI6RzTJ_ng _0CfrQIytEeuwXI6RzTJ_ng _6oiLIIytEeuwXI6RzTJ_ng _6pplcIytEeuwXI6RzTJ_ng _r0txgIytEeuwXI6RzTJ_ng _s9DSkIytEeuwXI6RzTJ_ng _s9CEcIytEeuwXI6RzTJ_ng"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_dWXRkIytEeuwXI6RzTJ_ng" name=":Case" coveredBy="_zITT4IytEeuwXI6RzTJ_ng _0CfEMIytEeuwXI6RzTJ_ng"/>
@@ -32,7 +32,7 @@
     <message xmi:type="uml:Message" xmi:id="_6ohkEIytEeuwXI6RzTJ_ng" name="logAction()" receiveEvent="_6oiyMIytEeuwXI6RzTJ_ng" sendEvent="_6oiLIIytEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_6poXUIytEeuwXI6RzTJ_ng" name="Confirms creation of record" messageSort="reply" receiveEvent="_6pplcIytEeuwXI6RzTJ_ng" sendEvent="_6po-YIytEeuwXI6RzTJ_ng"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_NZx5EIytEeuwXI6RzTJ_ng" name="ReviewReportedCase">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_NZx5EIytEeuwXI6RzTJ_ng" name="Review Reported Case">
     <lifeline xmi:type="uml:Lifeline" xmi:id="_KbrTwIyuEeuwXI6RzTJ_ng" name=":UserPortal" coveredBy="_mmF7EIyuEeuwXI6RzTJ_ng _vi6FEIyuEeuwXI6RzTJ_ng _2fQWsIyvEeuwXI6RzTJ_ng _2fRk0IyvEeuwXI6RzTJ_ng _SrI9oIywEeuwXI6RzTJ_ng _SsZh4IywEeuwXI6RzTJ_ng _5wrEIIyvEeuwXI6RzTJ_ng _lj0lwIyuEeuwXI6RzTJ_ng"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_K2JpQIyuEeuwXI6RzTJ_ng" name=":AMTPortal" coveredBy="_2fQWsIyvEeuwXI6RzTJ_ng _2fRk0IyvEeuwXI6RzTJ_ng _SrI9oYywEeuwXI6RzTJ_ng _e1-i0IywEeuwXI6RzTJ_ng _e2-oYIywEeuwXI6RzTJ_ng _SsY60IywEeuwXI6RzTJ_ng _SsUpYIywEeuwXI6RzTJ_ng"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_LQA6wIyuEeuwXI6RzTJ_ng" name=":CaseManager" coveredBy="_xFWvQIyuEeuwXI6RzTJ_ng _quVi0IyuEeuwXI6RzTJ_ng _quU7wIyuEeuwXI6RzTJ_ng _mmF7EYyuEeuwXI6RzTJ_ng _yJRqYYyuEeuwXI6RzTJ_ng _vi5eAIyuEeuwXI6RzTJ_ng _2fQWsIyvEeuwXI6RzTJ_ng _2fRk0IyvEeuwXI6RzTJ_ng"/>
@@ -49,8 +49,8 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yJRqYYyuEeuwXI6RzTJ_ng" name="Message19ReceiveEvent" covered="_LQA6wIyuEeuwXI6RzTJ_ng" message="_yJRDUIyuEeuwXI6RzTJ_ng"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vi5eAIyuEeuwXI6RzTJ_ng" name="Message16SendEvent" covered="_LQA6wIyuEeuwXI6RzTJ_ng" message="_vi428IyuEeuwXI6RzTJ_ng"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vi6FEIyuEeuwXI6RzTJ_ng" name="Message16ReceiveEvent" covered="_KbrTwIyuEeuwXI6RzTJ_ng" message="_vi428IyuEeuwXI6RzTJ_ng"/>
-    <fragment xmi:type="uml:CombinedFragment" xmi:id="_2fQWsIyvEeuwXI6RzTJ_ng" name="RequestMoreEvidence" covered="_LitNQIyuEeuwXI6RzTJ_ng _LQA6wIyuEeuwXI6RzTJ_ng _KbrTwIyuEeuwXI6RzTJ_ng _K2JpQIyuEeuwXI6RzTJ_ng" interactionOperator="opt">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_2fRk0IyvEeuwXI6RzTJ_ng" name="InteractionOperand0" covered="_LitNQIyuEeuwXI6RzTJ_ng _LQA6wIyuEeuwXI6RzTJ_ng _KbrTwIyuEeuwXI6RzTJ_ng _K2JpQIyuEeuwXI6RzTJ_ng">
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_2fQWsIyvEeuwXI6RzTJ_ng" name="RequestMoreEvidence" covered="_KbrTwIyuEeuwXI6RzTJ_ng _LitNQIyuEeuwXI6RzTJ_ng _LQA6wIyuEeuwXI6RzTJ_ng _K2JpQIyuEeuwXI6RzTJ_ng" interactionOperator="opt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_2fRk0IyvEeuwXI6RzTJ_ng" name="InteractionOperand0" covered="_KbrTwIyuEeuwXI6RzTJ_ng _LitNQIyuEeuwXI6RzTJ_ng _LQA6wIyuEeuwXI6RzTJ_ng _K2JpQIyuEeuwXI6RzTJ_ng">
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SrI9oIywEeuwXI6RzTJ_ng" name="Message25SendEvent" covered="_KbrTwIyuEeuwXI6RzTJ_ng" message="_SrHIcIywEeuwXI6RzTJ_ng"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_5wrEIIyvEeuwXI6RzTJ_ng" name="More evidence is requested" covered="_KbrTwIyuEeuwXI6RzTJ_ng" finish="_SsZh4IywEeuwXI6RzTJ_ng" start="_SrI9oIywEeuwXI6RzTJ_ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SrI9oYywEeuwXI6RzTJ_ng" name="Message25ReceiveEvent" covered="_K2JpQIyuEeuwXI6RzTJ_ng" message="_SrHIcIywEeuwXI6RzTJ_ng"/>
@@ -66,11 +66,11 @@
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_e25I0IywEeuwXI6RzTJ_ng" name="Log action on to system" covered="_LitNQIyuEeuwXI6RzTJ_ng" finish="_e2-BUIywEeuwXI6RzTJ_ng" start="_e1_J4IywEeuwXI6RzTJ_ng"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e2-BUIywEeuwXI6RzTJ_ng" name="Message32SendEvent" covered="_LitNQIyuEeuwXI6RzTJ_ng" message="_e29aQIywEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_mmFUAIyuEeuwXI6RzTJ_ng" name="showCase()" receiveEvent="_mmF7EYyuEeuwXI6RzTJ_ng" sendEvent="_mmF7EIyuEeuwXI6RzTJ_ng"/>
-    <message xmi:type="uml:Message" xmi:id="_vi428IyuEeuwXI6RzTJ_ng" name="Case Retreived and shown" messageSort="reply" receiveEvent="_vi6FEIyuEeuwXI6RzTJ_ng" sendEvent="_vi5eAIyuEeuwXI6RzTJ_ng"/>
+    <message xmi:type="uml:Message" xmi:id="_vi428IyuEeuwXI6RzTJ_ng" name="Case retreived and shown" messageSort="reply" receiveEvent="_vi6FEIyuEeuwXI6RzTJ_ng" sendEvent="_vi5eAIyuEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_xFWIMIyuEeuwXI6RzTJ_ng" name="logAction()" receiveEvent="_xFWvQYyuEeuwXI6RzTJ_ng" sendEvent="_xFWvQIyuEeuwXI6RzTJ_ng"/>
-    <message xmi:type="uml:Message" xmi:id="_yJRDUIyuEeuwXI6RzTJ_ng" name="Message19" messageSort="reply" receiveEvent="_yJRqYYyuEeuwXI6RzTJ_ng" sendEvent="_yJRqYIyuEeuwXI6RzTJ_ng"/>
+    <message xmi:type="uml:Message" xmi:id="_yJRDUIyuEeuwXI6RzTJ_ng" name="action logged" messageSort="reply" receiveEvent="_yJRqYYyuEeuwXI6RzTJ_ng" sendEvent="_yJRqYIyuEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_SrHIcIywEeuwXI6RzTJ_ng" name="createNotification()" receiveEvent="_SrI9oYywEeuwXI6RzTJ_ng" sendEvent="_SrI9oIywEeuwXI6RzTJ_ng"/>
-    <message xmi:type="uml:Message" xmi:id="_SsYTwIywEeuwXI6RzTJ_ng" name="Request Sent" messageSort="reply" receiveEvent="_SsZh4IywEeuwXI6RzTJ_ng" sendEvent="_SsY60IywEeuwXI6RzTJ_ng"/>
+    <message xmi:type="uml:Message" xmi:id="_SsYTwIywEeuwXI6RzTJ_ng" name="Request sent" messageSort="reply" receiveEvent="_SsZh4IywEeuwXI6RzTJ_ng" sendEvent="_SsY60IywEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_e197wIywEeuwXI6RzTJ_ng" name="LogAction()" receiveEvent="_e1_J4IywEeuwXI6RzTJ_ng" sendEvent="_e1-i0IywEeuwXI6RzTJ_ng"/>
     <message xmi:type="uml:Message" xmi:id="_e29aQIywEeuwXI6RzTJ_ng" name="Action logged on to system" messageSort="reply" receiveEvent="_e2-oYIywEeuwXI6RzTJ_ng" sendEvent="_e2-BUIywEeuwXI6RzTJ_ng"/>
   </packagedElement>
